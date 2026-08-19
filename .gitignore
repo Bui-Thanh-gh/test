@@ -216,3 +216,25 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# AI Models & Checkpoints
+*.h5
+*.pkl
+*.pth
+*.pt
+*.onnx
+*.bin
+models/
+weights/
+
+# Data sets
+data/
+dataset/
+*.csv
+*.parquet
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment and secrets
+.env
